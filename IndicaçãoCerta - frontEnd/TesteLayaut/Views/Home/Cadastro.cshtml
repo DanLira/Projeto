@@ -1,0 +1,212 @@
+﻿
+@{
+    ViewBag.Title = "Cadastro";
+}
+
+<div class="category-tab">
+    <div class="col-sm-12">
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#tshirt" data-toggle="tab">Tipos >></a></li>
+            <li><a href="#blazers" data-toggle="tab">Cadastro de cliente</a></li>
+            <li><a href="#sunglass" data-toggle="tab">Cadastro de profissional</a></li>
+        </ul>
+    </div>
+    <div class="tab-content">
+        <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                                    Tipos
+            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+        <div class="tab-pane fade active in" id="tshirt">
+            <div class="col-sm-3">
+                <div class="product-image-wrapper">
+                    <div class="single-products">
+                        <div class="productinfo text-center">
+                            <center><h2>Escolha o tipo do seu cadastro</h2></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--fim de Tipos-->
+        <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                            Cadastro de cliente
+            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+        <div class="tab-pane fade" id="blazers">
+            <div class="col-sm-3">
+                <div class="product-image-wrapper">
+                    <div class="single-products">
+                        <div class="productinfo text-left">
+                            <form method="post">
+                                <p><h6>&nbsp;&nbsp;Campos com * são obrigatórios</h6>
+                                <div class="form-group col-md-4">
+                                    Nome:*<br /><input type="text" name="name" class="form-control" required="required" placeholder="nome">
+                                </div>
+                                <div class="form-group col-md-8">
+                                    Sobrenome:*<br /><input type="text" name="sobrenome" class="form-control" required="required" placeholder="sobrenome">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    Endereço:*<input type="text" name="endereco" class="form-control" required="required" placeholder="rua e número">
+                                </div>
+                                <div class="form-group col-md-2">
+                                    Bairro:*<input type="text" name="bairro" class="form-control" required="required" placeholder="bairro">
+                                </div>
+                                <div class="form-group col-md-2">
+                                    Cidade:*<input type="text" name="cidade" class="form-control" required="required" placeholder="cidade">
+                                </div>
+                                <div class="form-group col-md-2">
+                                    Estado:*<select class="form-control" required="required" name="estado">
+                                                            <option value=""> selecione</option>
+								                            <option value="AC" > AC</option>
+								                            <option value="AL" > AL</option>
+								                            <option value="AP" > AP</option>
+								                            <option value="AM" > AM</option>
+								                            <option value="BA" > BA</option>
+								                            <option value="CE" > CE</option>
+								                            <option value="DF" > DF</option>
+								                            <option value="ES" > ES</option>
+								                            <option value="GO" > GO</option>
+								                            <option value="MA" > MA</option>
+								                            <option value="MT" > MT</option>
+								                            <option value="MS" > MS</option>
+								                            <option value="MG" > MG</option>
+								                            <option value="PA" > PA</option>
+								                            <option value="PB" > PB</option>
+								                            <option value="PR" > PR</option>
+								                            <option value="PE" ><!--selected="selected"--> PE</option>
+								                            <option value="PI" > PI</option>
+								                            <option value="RJ" > RJ</option>
+								                            <option value="RN" > RN</option>
+								                            <option value="RS" > RS</option>
+								                            <option value="RO" > RO</option>
+								                            <option value="RR" > RR</option>
+								                            <option value="SC" > SC</option>
+								                            <option value="SP" > SP</option>
+								                            <option value="SE" > SE</option>
+								                            <option value="TO" > TO</option>
+				                            </select>
+                                    </div>
+                                <div class="form-group col-md-2">
+                                    Fone:*<input type="text" name="fone" class="form-control" required="required" placeholder="(__) ____-____">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    E-mail:*<input type="email" name="email" class="form-control" required="required" placeholder="e-mail">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    Senha:*<input type="password" name="senha" class="form-control" required="required" placeholder="senha">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <input type="submit" name="submit" class="btn btn-primary pull-right" value="Cadastrar">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div><br>  
+        </div><!--fim do Cadastro de cliente-->
+        <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                             Cadastro de profissional
+            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+        <div class="tab-pane fade" id="sunglass">
+            <div class="col-sm-3">
+                <div class="product-image-wrapper">
+                    <div class="single-products">
+                        <div class="productinfo text-left">
+                            <form method="post">
+                                <p><h6>&nbsp;&nbsp;Campos com * são obrigatórios</h6>
+                                    <div class="form-group col-md-4">
+                                        Nome:*<br /><input type="text" name="name" class="form-control" required="required" placeholder="nome">
+                                    </div>
+                                    <div class="form-group col-md-8">
+                                        Sobrenome:*<br /><input type="text" name="sobrenome" class="form-control" required="required" placeholder="sobrenome">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        Endereço:*<input type="text" name="endereco" class="form-control" required="required" placeholder="rua e número">
+                                    </div>
+                                    <div class="form-group col-md-2">
+                                        Bairro:*<input type="text" name="bairro" class="form-control" required="required" placeholder="bairro">
+                                    </div>
+                                    <div class="form-group col-md-2">
+                                        Cidade:*<input type="text" name="cidade" class="form-control" required="required" placeholder="cidade">
+                                    </div>
+                                    <div class="form-group col-md-2">
+                                        Estado:*<select class="form-control" required="required" name="estado">
+                                            <option value=""> selecione</option>
+                                            <option value="AC"> AC</option>
+                                            <option value="AL"> AL</option>
+                                            <option value="AP"> AP</option>
+                                            <option value="AM"> AM</option>
+                                            <option value="BA"> BA</option>
+                                            <option value="CE"> CE</option>
+                                            <option value="DF"> DF</option>
+                                            <option value="ES"> ES</option>
+                                            <option value="GO"> GO</option>
+                                            <option value="MA"> MA</option>
+                                            <option value="MT"> MT</option>
+                                            <option value="MS"> MS</option>
+                                            <option value="MG"> MG</option>
+                                            <option value="PA"> PA</option>
+                                            <option value="PB"> PB</option>
+                                            <option value="PR"> PR</option>
+                                            <option value="PE"><!--selected="selected"--> PE</option>
+                                            <option value="PI"> PI</option>
+                                            <option value="RJ"> RJ</option>
+                                            <option value="RN"> RN</option>
+                                            <option value="RS"> RS</option>
+                                            <option value="RO"> RO</option>
+                                            <option value="RR"> RR</option>
+                                            <option value="SC"> SC</option>
+                                            <option value="SP"> SP</option>
+                                            <option value="SE"> SE</option>
+                                            <option value="TO"> TO</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-2">
+                                        Fone:*<input type="text" name="fone" class="form-control" required="required" placeholder="(__) ____-____">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        Profissão:*<input type="text" name="profissao" class="form-control" required="required" placeholder="profissão">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        Quanto tempo nessa profissão?*<select class="form-control" required="required" name="tempo">
+                                            <option value=""> selecione</option>
+                                            <option value="A"> Menos de 1 ano</option>
+                                            <option value="B"> 1 ano</option>
+                                            <option value="C"> Entre 1 e 2 anos</option>
+                                            <option value="D"> 2 anos</option>
+                                            <option value="E"> Entre 2 e 3 anos</option>
+                                            <option value="F"> 3 anos</option>
+                                            <option value="G"> Entre 3 e 4 anos</option>
+                                            <option value="H"> 4 anos</option>
+                                            <option value="I"> Entre 4 e 5 anos</option>
+                                            <option value="J"> 5 anos</option>
+                                            <option value="K"> Entre 5 e 6 anos</option>
+                                            <option value="L"> 6 anos</option>
+                                            <option value="M"> Entre 6 e 7 anos</option>
+                                            <option value="N"> 7 anos</option>
+                                            <option value="O"> Entre 7 e 8 anos</option>
+                                            <option value="P"> 8 anos</option>
+                                            <option value="Q"> Entre 8 e 9 anos</option>
+                                            <option value="R"> 9 anos</option>
+                                            <option value="S"> Entre 9 e 10 anos</option>
+                                            <option value="T"> 10 anos</option>
+                                            <option value="U"> Mais de 10 anos</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        Empregado no momento?<input type="text" name="trabalha" class="form-control" placeholder="informe a empresa onde trabalha">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        E-mail:*<input type="email" name="email" class="form-control" required="required" placeholder="e-mail">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        Senha:*<input type="password" name="senha" class="form-control" required="required" placeholder="senha">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <input type="submit" name="submit" class="btn btn-primary pull-right" value="Cadastrar">
+                                    </div>
+                                </form>
+                        </div>
+                    </div>
+                </div>
+            </div>                         
+        </div><!--fim do Cadastro de profissional-->       
+    </div>
+</div>
