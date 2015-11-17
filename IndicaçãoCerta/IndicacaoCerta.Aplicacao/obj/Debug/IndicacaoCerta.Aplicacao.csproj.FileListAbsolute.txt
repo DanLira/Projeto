@@ -1,5 +1,0 @@
-D:\ESTUDOS\LIGUAGEM DE PROGRAMAÇÃO\Projetos C#\IndicaçãoCerta\IndicacaoCerta.Aplicacao\bin\Debug\IndicacaoCerta.Aplicacao.dll
-D:\ESTUDOS\LIGUAGEM DE PROGRAMAÇÃO\Projetos C#\IndicaçãoCerta\IndicacaoCerta.Aplicacao\bin\Debug\IndicacaoCerta.Aplicacao.pdb
-D:\ESTUDOS\LIGUAGEM DE PROGRAMAÇÃO\Projetos C#\IndicaçãoCerta\IndicacaoCerta.Aplicacao\obj\Debug\IndicacaoCerta.Aplicacao.csprojResolveAssemblyReference.cache
-D:\ESTUDOS\LIGUAGEM DE PROGRAMAÇÃO\Projetos C#\IndicaçãoCerta\IndicacaoCerta.Aplicacao\obj\Debug\IndicacaoCerta.Aplicacao.dll
-D:\ESTUDOS\LIGUAGEM DE PROGRAMAÇÃO\Projetos C#\IndicaçãoCerta\IndicacaoCerta.Aplicacao\obj\Debug\IndicacaoCerta.Aplicacao.pdb

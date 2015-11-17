@@ -1,5 +1,0 @@
-D:\ESTUDOS\LIGUAGEM DE PROGRAMAÇÃO\Projetos C#\IndicaçãoCerta\IndicacaoCerta.Dominio\bin\Debug\IndicacaoCerta.Dominio.dll
-D:\ESTUDOS\LIGUAGEM DE PROGRAMAÇÃO\Projetos C#\IndicaçãoCerta\IndicacaoCerta.Dominio\bin\Debug\IndicacaoCerta.Dominio.pdb
-D:\ESTUDOS\LIGUAGEM DE PROGRAMAÇÃO\Projetos C#\IndicaçãoCerta\IndicacaoCerta.Dominio\obj\Debug\IndicacaoCerta.Dominio.csprojResolveAssemblyReference.cache
-D:\ESTUDOS\LIGUAGEM DE PROGRAMAÇÃO\Projetos C#\IndicaçãoCerta\IndicacaoCerta.Dominio\obj\Debug\IndicacaoCerta.Dominio.dll
-D:\ESTUDOS\LIGUAGEM DE PROGRAMAÇÃO\Projetos C#\IndicaçãoCerta\IndicacaoCerta.Dominio\obj\Debug\IndicacaoCerta.Dominio.pdb
